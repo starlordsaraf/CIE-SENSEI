@@ -37,7 +37,7 @@
         <button>create</button>
         <p class="message">Already registered? <a href="#">Sign In</a></p>
       </form>
-      <form class="login-form" action="profilepage.html">
+      <form class="login-form">
         <input type="text" placeholder="username"/>
         <input type="password" placeholder="password"/>
         <button>login</button>

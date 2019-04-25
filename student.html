@@ -38,9 +38,9 @@
      			 <a class="navbar-brand" href="home.html">SENSEI</a>
     		</div>
     		<ul class="nav navbar-nav">
-      			<li class="active"><a href="home.html">Home</a></li>
+      			<li><a href="home.html">Home</a></li>
       			<li><a href="forstudents.html">For Students</a></li>
-      			<li><a href="fortutors.html">For Tutors</a></li>
+      			<li class="active"><a href="fortutors.html">For Tutors</a></li>
       			<li><a href="login.html">Login</a></li>
     		</ul>
   		</div>
@@ -58,7 +58,7 @@
 		&nbsp;&nbsp;&nbsp;<p style="font-size:17px;">15 Students<p><br><br>
 	</div>
 	<div style="float:left;">
-		&nbsp;&nbsp;&nbsp;<button style="margin-left: 50px;margin-top:0px;background-color:#A52A2A;">Send Help</button><br><br>
+		&nbsp;&nbsp;&nbsp;<button style="margin-left: 50px;margin-top:0px;background-color:#A52A2A;" onclick="handler()">Send Help</button><br><br>
 	</div>
 </div>
 <br><br><br>
@@ -71,7 +71,7 @@
 		&nbsp;&nbsp;&nbsp;<p style="font-size:17px;">25 Students<p><br><br>
 	</div>
 	<div style="float:left;">
-		&nbsp;&nbsp;&nbsp;<button style="margin-left: 50px;margin-top:0px;background-color:#A52A2A;">Send Help</button><br><br>
+		&nbsp;&nbsp;&nbsp;<button style="margin-left: 50px;margin-top:0px;background-color:#A52A2A;" onclick="handler()">Send Help</button><br><br>
 	</div>
 </div>
 <br><br><br>
@@ -84,10 +84,17 @@
 		&nbsp;&nbsp;&nbsp;<p style="font-size:17px;">10 Students<p><br><br>
 	</div>
 	<div style="float:left;">
-		&nbsp;&nbsp;&nbsp;<button style="margin-left: 50px;margin-top:0px;background-color:#A52A2A;">Send Help</button><br><br>
+		&nbsp;&nbsp;&nbsp;<button style="margin-left: 50px;margin-top:0px;background-color:#A52A2A;" onclick="handler()">Send Help</button><br><br>
 	</div>
 </div>
 <br><br><br>
 </div>
+<script type="text/javascript">
+	function handler(){
+  alert('Your mesage has been sent!')
+}
+</script>
+
+
 </body>
 </html>
